@@ -1,0 +1,14 @@
+[server]
+# Chỉ mở trên máy mình (không lộ ra mạng LAN) và không tự bật trình duyệt
+address = "localhost"
+port = 8501
+headless = true
+maxUploadSize = 50
+
+[client]
+# Ẩn nút "Deploy" và menu dành cho nhà phát triển
+toolbarMode = "minimal"
+
+[browser]
+# Không gửi thống kê sử dụng về Streamlit
+gatherUsageStats = false

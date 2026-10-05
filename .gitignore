@@ -1,0 +1,13 @@
+# Môi trường ảo và cache (model embedding, cache LLM khi đánh giá) — tự tạo lại khi chạy
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Bí mật: API key
+.env
+.streamlit/secrets.toml
+
+# Vector DB — tạo lại bằng: python ingest.py
+data/chroma/

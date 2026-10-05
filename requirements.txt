@@ -1,0 +1,8 @@
+pymupdf>=1.24        # đọc và tạo PDF
+fastembed>=0.7       # embedding chạy bằng ONNX trên CPU (không cần PyTorch)
+chromadb>=1.0        # vector database
+rank-bm25>=0.2.2     # tìm kiếm từ khoá BM25
+ollama>=0.6          # gọi LLM trên Ollama Cloud
+streamlit>=1.46      # giao diện web
+python-dotenv>=1.0   # đọc file .env
+pytest>=8            # chạy kiểm thử trong thư mục tests/
